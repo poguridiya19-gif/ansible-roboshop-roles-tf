@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.poguri.fun
+REDIS_HOST: redis.poguri.fun
+CATALOGUE_HOST: catalogue.poguri.fun
+CART_HOST: cart.poguri.fun
+USER_HOST: user.poguri.fun
+RABBITMQ_HOST: rabbitmq.poguri.fun
+MYSQL_HOST: mysql.poguri.fun
+SHIPPING_HOST: shipping.poguri.fun
+PAYMENT_HOST: payment.poguri.fun
