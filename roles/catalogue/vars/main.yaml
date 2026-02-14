@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.poguri.fun
+MONGODB_HOST: mongodb-{{ env }}.poguri.fun
