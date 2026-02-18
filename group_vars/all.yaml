@@ -1,9 +1,9 @@
 MONGODB_HOST  : mongodb-{{ env }}.poguri.fun
 REDIS_HOST    : redis-{{ env }}.poguri.fun
-CATALOGUE_HOST: catalogue-{{ env }}.poguri.fun
-CART_HOST     : cart-{{ env }}.poguri.fun
-USER_HOST     : user-{{ env }}.poguri.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.poguri.fun
+CART_HOST     : cart.backend-alb-{{ env }}.poguri.fun
+USER_HOST     : user.backend-alb-{{ env }}.poguri.fun
 RABBITMQ_HOST : rabbitmq-{{ env }}.poguri.fun
 MYSQL_HOST    : mysql-{{ env }}.poguri.fun
-SHIPPING_HOST : shipping-{{ env }}.poguri.fun
-PAYMENT_HOST  : payment-{{ env }}.poguri.fun
+SHIPPING_HOST : shipping.backend-alb-{{ env }}.poguri.fun
+PAYMENT_HOST  : payment.backend-alb-{{ env }}.poguri.fun
